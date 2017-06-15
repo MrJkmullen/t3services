@@ -1,16 +1,41 @@
-ul{
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
 }
 
-li{
+li {
     float: right;
 }
 
-li a{
+li a {
     display: block;
-    padding: 10px;
-    background-color: rgb(255, 140, 0);
+    background-color: rgba(255, 0, 0, 0.82);
+    display: block;
+    text-decoration: none;
+    padding: 10px 38px;
+    color: black;
+    font-size: 18px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+li a:hover {
+    background-color: #0e44bf;
+}
+
+H1 {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
 }
